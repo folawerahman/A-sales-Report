@@ -61,6 +61,10 @@ td.red {
   background-color: var(--ab-5000);
 }
 
+
+
+/* Media Queries*/
+
 @media (min-width: 320px) and (max-width: 1980px) {
   .div-container {
     margin: 1rem auto; /* Adjust margin for smaller screens */
@@ -79,6 +83,6 @@ td.red {
 
 @media (max-width: 425px) {
   #table-container {
-    text-align: center;
+    text-align: center; /* Change text-align to center for smaller screens */
   }
 }
